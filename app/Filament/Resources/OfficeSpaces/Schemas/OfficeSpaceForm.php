@@ -28,7 +28,7 @@ class OfficeSpaceForm
                     ->disk('public')
                     ->directory('office')
                     ->image()
-                    ->required(),
+                    ->required(),   
 
                 Textarea::make('about')
                     ->helperText('Berikan  Deskripsi singkat mengenai ruang kantor ini.')
